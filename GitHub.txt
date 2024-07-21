@@ -28,10 +28,14 @@ git remote add origin https://github.com/hemantkrishnan4/Git_.git
 git branch -M main
 git push -u origin main
 
+#To pull the changes made in the GitHub to Local Folder
+git pull origin main
+
 
 #To upload all the other files and folders
 git add .
-git commit -m "Describe your changes"
+git commit -m "Updated Files"
 git push origin main
+
 
 
